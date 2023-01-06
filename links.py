@@ -23,4 +23,4 @@ with open(path, 'r') as f:
         # Open the link in Firefox
         webbrowser.get('firefox').open(line)
 print ("")
-print ("\033[1;93mProcess Complete")
+print ("\033[1;93m  >> Process Complete")
