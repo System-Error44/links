@@ -11,6 +11,7 @@ print ("\033[95mFB/sharifansari00")
 print ("")
 
 # Prompt the user to enter the path to the file
+print ("\033[1;90m >> Type example.txt\n")
 path = input("\033[1;92m[$] Enter the path to the file containing the links: \033[0m")
 path = os.path.expanduser(path)
 
@@ -23,4 +24,4 @@ with open(path, 'r') as f:
         # Open the link in Firefox
         webbrowser.get('firefox').open(line)
 print ("")
-print ("\033[1;93m  >> Process Complete")
+print ("\033[1;93mProcess Complete")
