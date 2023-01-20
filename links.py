@@ -46,7 +46,7 @@ with open(path, 'r') as f:
             # Strip leading and trailing white space from the line
             line = line.strip()
             # Open the link in Firefox
-            # If you want to open links in Chrome, rename Firefox to Google Chrome.
+            # If you want to open links in Chrome, rename firefox to google-chrome.
             webbrowser.get('firefox').open(line)
             
 print("")
